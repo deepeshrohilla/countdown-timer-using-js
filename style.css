@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(moon-31665_1280.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.merry-christmas {
+    color: #ffffff;
+    font-size: 7em;
+    margin-bottom: 50px;
+    text-shadow: 5px 5px 1px #000;
+}
+
+@media screen and (max-width: 768px) {
+    .merry-christmas {
+        font-size: 3.5em;
+    }
+}
+
+.countdown {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.countdown div {
+    width: 180px;
+    height: 220px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 7em;
+    color: #ffffff;
+    background-color: #ffffff30;
+    backdrop-filter: blur(20px);
+    border: 2px solid #ffffff30;
+    box-shadow: 0 10px 20px hsla(0, 0%, 0%, 0.4);
+    border-radius: 20px;
+}
+
+.countdown div h1 {
+    font-size: 0.2em;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 3px;
+}
